@@ -1,7 +1,5 @@
 https://leetcode.com/problems/next-permutation/submissions/
 
-// Should have broken the problem into which number to swap and to where then I would have cracked it.
-
 class Solution {
 public:
     void nextPermutation(vector<int>& v) {
