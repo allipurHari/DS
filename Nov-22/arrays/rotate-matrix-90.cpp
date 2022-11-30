@@ -1,7 +1,5 @@
 https://leetcode.com/problems/rotate-image/submissions/
 
-// A blunder, missed a loop. I knew the case but I was over confident
-
 class Solution {
 public:
     void rotate(vector<vector<int>>& m) {
