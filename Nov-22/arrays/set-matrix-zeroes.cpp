@@ -1,7 +1,5 @@
 https://leetcode.com/problems/set-matrix-zeroes/submissions/
 
-// Silly declaration mistakes, it felt like I'm in a hurry to execute the code only concerning about the core logic
-
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& m) {
