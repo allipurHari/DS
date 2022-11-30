@@ -1,7 +1,5 @@
 https://leetcode.com/problems/pascals-triangle/
 
-// Did it in a go
-
 class Solution {
 public:
     vector<vector<int>> generate(int n) {
