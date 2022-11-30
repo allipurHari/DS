@@ -1,6 +1,4 @@
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-
-// A silly mistake, a bit cautious this time to avoid such but better
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 class Solution {
 public:
