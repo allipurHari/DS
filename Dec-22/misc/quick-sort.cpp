@@ -2,7 +2,7 @@
 using namespace std;
 
 int arrange(vector<int> &a, int low, int high){
-    int i = 0;
+    int i = low;
     for(int j = low;j < high;j++){
         if(a[j] < a[high])
             swap(a[i++], a[j]);
