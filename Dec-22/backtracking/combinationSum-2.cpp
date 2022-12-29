@@ -19,6 +19,22 @@ public:
         }
         solve(c, v, idx+1, sum, ans, mp);
     }
+     
+    // Iterative
+    void solve(vector<int> c, vector<int> &v, int idx, int sum, vector<vector<int>> &ans){
+        if(sum == 0){
+            ans.push_back(v);
+            return;
+        }
+        for(int i = idx;i < c.size();i++){
+            if(i != idx && c[i] == c[i-1])continue;
+            if(c[i] <= sum){
+                v.push_back(c[i]);
+                solve(c, v, i+1, sum-c[i], ans);
+                v.pop_back();
+            }
+        }
+    }
 
     vector<vector<int>> combinationSum2(vector<int>& c, int target) {
         vector<int> v;
